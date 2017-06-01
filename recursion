@@ -1,0 +1,14 @@
+Recursion is when you define part of a function in terms of a fragmented task in which the original task recurs:
+n! = n * (n-1)!
+In order for a recursion to work, you need a base case:
+i.e., when you get to 1, stop before 1 = 1*(1-1)!
+(also, ALWAYS include a docstring after the definition of the function to say what the function does to someone who might not program. #comments are more for people who program)
+def factorial(n):
+'''Recursive function for computing the factorial of n'''
+  if n ==1:
+    return 1 #this is the base case
+  else:
+    result = n*factorial(n-1)
+    return result
+
+THE KEY TO RECURSION IS TO INCLUDE THE FUNCTION INSIDE THE FUNCTION

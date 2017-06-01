@@ -12,3 +12,5 @@ def factorial(n):
     return result
 
 THE KEY TO RECURSION IS TO INCLUDE THE FUNCTION INSIDE THE FUNCTION
+
+Recursive substructure property: another term for the substructure of the recursion (substructure, i.e. the recursion of the function to solve a smaller problem inside the function)

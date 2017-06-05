@@ -1,0 +1,3 @@
+To call a section of a string use, string[starting point:ending point].
+If either the starting point or the ending point are blank, it will go to the lower or upper limit inside the string,
+so that string[:] just prints the string as-is.
